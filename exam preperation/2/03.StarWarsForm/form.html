@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Form</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous">
+   <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+   <section>
+      <p id="header">may the force be with you</p>
+      <h1>Thanks for pre-ordering!</h1>
+      <form>
+            <div id="test">
+         <div class="first">
+            <label>
+               <input type="radio">
+               <p>Pay Pal</p>
+               <img src="images/PayPal.png">
+            </label>
+         </div>
+         <div class="first">
+            <label>
+            <input type="radio">
+            <p>Debit/Credit Card</p>
+            <img src="images/MasterCard.png">
+            </label>
+         </div>
+      </div>
+         <div id="card">
+            <label>
+               <p>Card Number</p>
+               <input type="number" placeholder="4111 1111 1111 1111">
+            </label>
+         </div>
+         <div id="test2"> 
+         <div class="second" id="expiry">
+            <label>
+               <p>Expiry</p>
+               <input type="month">
+            </label>
+         </div>
+         <div class="second">
+            <label>
+               <p>CSV</p>
+               <input type="number" placeholder="123">
+               <i class="fas fa-info-circle"></i>
+            </label>
+         </div>
+      </div>
+         <div id="th"> <i class="fas fa-lock"></i>
+            <input type="submit" value="Finish and Pay"></div>
+      </form>
+      <p id="end">That's <span>$19.99</span></p>
+   </section>
+
+</body>
+
+</html>

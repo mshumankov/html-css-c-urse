@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   margin:0 auto;
+   background-color: #EE7047;
+}
+nav ul {
+   float:right;
+
+
+}
+nav ul li {
+   display: inline-block;
+   margin: 1rem;
+   border: 2px solid #D05842;
+   padding: 0.4rem 1rem;
+   border-radius: 6px;
+   cursor: pointer;
+}
+li a {
+   text-transform: uppercase;
+   font-size: 1rem;
+   font-weight: bold;
+
+}
+header h1 {
+   font-style: italic;
+   margin: 2rem 0 1rem 1rem;
+   display: inline-block;
+   border: 2px solid #D05842;
+   padding: 0.4rem 1rem;
+   border-radius: 6px;
+}
+main section {
+   background-color: #F8B544;
+   width: 95.5%;
+   margin: 0 auto;
+   border-radius: 5px;
+   padding: 1.5rem;
+}
+article {
+   padding: 1.5rem 0 1.5rem 1.5rem;
+    border: 2px solid #D05842;
+    border-radius: 6px;
+}
+section article:first-child {
+   margin-bottom: 1.5rem;
+}
+figure img {
+   width: 27%;
+   float: right;
+   margin-left: 3rem;
+   border-radius: 10px;
+}
+article p {
+   text-align: justify;
+
+}
+button {
+   margin: 1rem 0 0 0;
+   border: 2px solid #D05842;
+   padding: 0.6rem 1.7rem;
+   border-radius: 6px;
+   cursor: pointer;
+   text-transform: uppercase;
+   font-size: 1rem;
+   color: #D05842;
+   background: none;
+   font-weight: bold;
+}
+footer {
+   margin: 0.5rem;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 0.5rem;
+   border: 2px solid #D05842;
+   font-weight: bold;
+
+}

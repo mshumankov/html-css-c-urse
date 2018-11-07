@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+   margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+header h1 {
+   text-align: center;
+   color: #0685D4;
+   font-size: 3.5rem;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow:  4px 4px 2px rgba(150, 150, 150, 1);
+   font-weight: 500;
+   margin-bottom: 0;
+}
+header h2 {
+   text-transform: capitalize;
+   text-align: center;
+   color: #0685D4;
+   font-size: 3rem;
+   font-weight: 500;
+   letter-spacing: 0.3rem;
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+}
+header h3 {
+   text-align: center;
+   color: #0685D4;
+   font-size: 2rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 500;
+   margin-bottom: 1rem;
+}
+main {
+   width: 75%;
+   margin:0 auto;
+}
+main img {
+   width: 100%;
+
+}
+figure {
+   width: 24%;
+   float:left;
+   margin-left: 0;
+}
+main p#mein {
+   text-align: justify;
+   font-size: 1.9rem;
+   color: #665544;
+}
+main p#mein::first-letter {
+   font-size: 3rem;
+   text-transform: uppercase;
+   font-style: oblique;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+}
+p#span {
+   font-size: 1.6rem;
+   font-style: oblique;
+   text-align: right;
+   color: #665544;
+   display: block;
+}

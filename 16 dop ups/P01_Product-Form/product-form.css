@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body {
+   font-family: 'Lato', sans-serif;
+   font-size: 14px;
+   margin: 0 auto;
+   padding: 0;
+}
+article {
+   width: 75%;
+    margin: 4rem auto;
+    overflow: hidden;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 49px -2px rgba(103,253,200,1);
+}
+article img {
+   width: 40%;
+   background: linear-gradient(to bottom,rgb(103, 253, 200), rgb(67, 202, 202));
+   padding: 6rem 0;
+   display: inline-block;
+   vertical-align: bottom;
+}
+section#content {
+   display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+label, select, input {
+   display: block;
+}
+input, select {
+   margin: 1.6rem 0;
+   margin-left: 1rem;
+}
+h1 {
+   font-size: 2rem;
+   font-weight: 900;
+   padding-top: 1rem;
+}
+h2 {
+   font-weight: 900;
+}
+select {
+   width: 11rem;
+    color: white;
+    background-color: #43CACA;
+    padding: 4px;
+    border: none;
+}
+input {
+   background: none;
+   border: none;
+   border-bottom: 3px solid #43CACA;
+   outline: none;
+}
+::placeholder {
+   color: #43CACA;
+}
+input[type="submit"] {
+   border: 3px solid #43CACA;
+   padding: 0 2rem;
+   text-transform: uppercase;
+   border-radius: 28px;
+   line-height: 2rem;
+   color: #43CACA;
+   margin: 3rem 3rem 0 0;
+}
+input[type="submit"]:hover {
+   color: white;
+   background: #43CACA;
+   cursor: pointer;
+}

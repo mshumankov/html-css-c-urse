@@ -1,0 +1,55 @@
+footer {
+   background-color: #292929;
+   margin: 0 auto;
+}
+article {
+   display: inline-block;
+   width: 20%;
+   margin: 1.7rem;
+   vertical-align: top;
+}
+h4 {
+   text-transform: uppercase;
+   color: white;
+   font-size: 1.3rem;
+}
+ul {
+   list-style: none;
+   padding-left: 0;
+}
+li a {
+   text-decoration: none;
+   color: #B5B498;
+   font-size: 1.3rem;
+   text-transform: capitalize;
+}
+
+div div {
+   width: 56px;
+   height: 56px;
+   display: inline-block;
+}
+#face {
+background: url(images/social.jpg) -10px 1px; 
+}
+#linkedin {
+background: url(images/social.jpg) -201px 1px;
+}
+#youtube {
+background: url(images/social.jpg) 318px 1px;
+}
+#twitter {
+  background: url(images/social.jpg) -74px 1px;  
+}
+#face:hover {
+background: url(images/social.jpg) -10px -63px;
+}
+#linkedin:hover {
+background: url(images/social.jpg) -201px -63px;
+}
+#youtube:hover {
+background: url(images/social.jpg) 318px -64px;
+}
+#twitter:hover {
+background: url(images/social.jpg) -74px -63px;
+}

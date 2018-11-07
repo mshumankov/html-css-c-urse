@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+body {
+   margin: 0 auto;
+   font-family: 'Lato', sans-serif;
+   background-color: #EEF3FA;
+   font-size: 12px;
+}
+main {
+   background-color: white;
+   margin: 6rem 0;
+   padding: 1px 0 4rem;
+}
+section#form {
+   padding: 0 3rem;
+   width: 60%;
+   display: inline-block;
+}
+h1 {
+   color: #1F2746;
+   font-weight: 900;
+   font-size: 3rem;
+}
+p {
+   color: gray;
+}
+div#first-row label, div#second-row label {
+   display: inline-block;
+   width: 43%;
+   margin-right: 51px;
+}
+div#first-row input, div#second-row input {
+   width: 100%;
+   padding: 10px;
+   margin-right: 10px;
+}
+section#form p {
+   margin-bottom: 5px;
+} 
+textarea {
+   width: 96%;
+   height: 101px;
+}
+input[type="submit"] {
+   margin: 16px 0;
+    background-color: #E8771F;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 9px 35px;
+    outline: none;
+}
+aside {
+   display: inline-block;
+   width: 20%;
+   margin-left: 106px;
+   margin-top: 2rem;
+   vertical-align: top;
+}
+h4 {
+   border-bottom: 1px solid rgb(172, 172, 172);
+   padding-bottom: 5px;
+   font-size: 14px;
+   margin-bottom: 0;
+   margin-top: 2rem;
+
+}
+aside div {
+   display: inline-block;
+   width: 14rem;
+   vertical-align: top;
+   margin-left: 6px;
+}
+i {
+   margin-top: 12px;
+   color: #00B2A9;
+   font-size: 14px;
+}

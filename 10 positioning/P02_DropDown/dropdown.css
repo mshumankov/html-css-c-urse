@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+   font-family: 'Open Sans', 'sans-serif';
+   background-color: #1D211E;
+   font-size: 22px;
+   line-height: 22px;
+   text-align: center;
+}
+a {
+   color: white;
+   display: block;
+   line-height: 60px;
+   padding: 0 10px;
+   text-decoration: none;
+
+}
+ul li {
+   display: inline-block;
+   background: #E67C1F;
+}
+ul#first-m li, ul#second-m li {
+   display: block;
+   position: relative;
+   width: 170px;
+}
+ul#first-m li {
+   top: 0px;
+   right: -86px;
+}
+ul#second-m li {
+   top: -50px;
+   right: -170px;
+}
+nav {
+   margin: 50px 0;
+   background: #E67C1F;
+}
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   position: relative;
+}
+nav ul ul {
+   position: absolute;
+   display: none;
+}
+li:hover > ul#first-m {
+   display: block;
+}
+li:hover > ul#second-m {
+   display: block;
+}
+li:hover {
+   background-color: black;
+}
+li > a::after {
+   content: "+";
+}
+li > a:only-child::after {
+   content: "";
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 740px) {
+    .clearfix {
+        text-align: center;
+    }
+    #info {
+        float: unset;
+    }
+    #photo {
+        float: unset;
+    }
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    section#skills.clearfix {
+        text-align: unset;
+    }
+    #skills-left, #skills-right {
+        float: unset;
+        text-align: left;
+    }
+   
+    #skills-left ul {
+        display: inline-block;
+        list-style: none;
+        width: 300px;
+    }
+    #skills-left ul li {
+        display: inline-block;
+        width: 95px;
+    }
+    #skills-right ul {
+        width: 352px;
+        display: inline-block;
+        text-align: left;
+    }
+    #skills-right ul li {
+        display: inline-block;
+        width: 122px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*TODO*/
+}

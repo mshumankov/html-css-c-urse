@@ -1,0 +1,32 @@
+body {
+   font-size: 3rem;
+}
+
+div {
+   width: 33%;
+   background: #6495ED;
+   text-align: center;
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   margin: 1rem;
+}
+
+div#first {
+   float: left;
+}
+
+div#second {
+   float: right;
+}
+
+div#third {
+   margin: 0 auto;
+}
+
+p {
+   text-align: justify;
+}
+
+div p {
+   text-align: center;
+}

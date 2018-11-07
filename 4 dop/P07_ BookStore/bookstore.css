@@ -1,0 +1,9 @@
+table, tr, td, th {
+   border: 1px solid #c6c7cc;
+   border-collapse: collapse;
+   color: #424242;
+   width: 700px;
+}
+section {
+   margin: 0 auto;
+}

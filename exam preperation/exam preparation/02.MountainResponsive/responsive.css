@@ -1,0 +1,82 @@
+@media only screen and (max-width: 479px) {
+  /*  * {
+      box-sizing: border-box;
+   }
+    */
+   .menu ul {
+      display: none;
+}
+.menu i {
+   display: inline-block;
+   font-size: 1.4rem;
+}
+body .menu {
+   display: flex;
+   margin-top: 3rem;
+   padding: 0 1rem;
+   box-sizing: border-box;
+}
+.menu span {
+   margin-left: unset;
+   margin-right: auto;
+}
+.about-us {
+   padding-left: 16px;
+   box-sizing: border-box;
+}
+.about-us h1 {
+   font-size: 30px;
+   height: 55px;
+}
+.about-us p {
+   width: 100%;
+}
+.headings {
+   font-size: 25px;
+   width: 82%;
+   font-weight: bold;
+   margin-top: 2rem;
+   font-family: 'Lato';
+}
+hr {
+   width: 17%;
+}
+.paragraph {
+   width: 84%;
+}
+.views {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   box-sizing: border-box;
+}
+.views img {
+   padding: 10px 10px;
+   width: 100%;
+   box-sizing: border-box;
+   margin: unset;
+}
+.best-place {
+   height: unset;
+}
+#second-heading {
+   width: 90%;
+}
+.why-us {
+   flex-direction: column;
+}
+.why-us article {
+   width: 100%;
+}
+.our-team {
+   flex-direction: column;
+   align-items: center;
+}
+.our-team article {
+   margin-right: unset;
+}
+#second-heading {
+   margin-top: unset;
+}
+
+}

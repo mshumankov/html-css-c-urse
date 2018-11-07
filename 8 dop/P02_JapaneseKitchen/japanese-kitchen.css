@@ -1,0 +1,142 @@
+body {
+  margin: 0 auto;
+  font-size: 14px;
+  /* background-image: url(images/dark-wood.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+}
+
+header {
+  width: 70%;
+  background-image: url(images/header-page.jpg);
+  margin: 0 auto;
+  height: 8rem;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  text-align: right;
+  padding-top: 2.7rem;
+  font-size: 2.5rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+  background: url(images/header-page.jpg) -83px -107px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0.4rem 1.3rem;
+  cursor: pointer;
+}
+
+nav ul {
+  margin: 0;
+  border-top: 2px solid #2A190F;
+  border-bottom: 2px solid #2A190F;
+  padding-left: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+nav ul li:first-child a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+section.courses {
+  width: 70%;
+  display: inline-block;
+  border-right: 1px solid rgb(190, 190, 190);
+}
+
+article {
+  width: 100%;
+  display: inline-block;
+}
+
+article figure {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  border: 1px solid rgb(190, 190, 190);
+  margin: 0.5rem 1rem 2rem 0.75rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  width: 48%;
+}
+
+article div h2 {
+  font-size: 1.5rem;
+}
+
+article div h3 {
+  color: rgb(189, 161, 87);
+}
+img {
+  width: 98%;
+}
+
+aside {
+  float: right;
+  display: inline-block;
+  width: 29%;
+}
+
+section.popular-recipes {
+  float: right;
+  display: inline-block;
+  width: 100%;
+}
+
+aside h2 {
+  font-weight: bold;
+  width: 61%;
+  color: #C64F6C;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+aside ul li {
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+aside ul {
+  padding: 0rem 2rem 1rem 2rem;
+  width: 58%;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #C64F6C;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #ADACA8;
+  padding: 0.7rem;
+  color: white;
+  border: 1px solid black;
+}

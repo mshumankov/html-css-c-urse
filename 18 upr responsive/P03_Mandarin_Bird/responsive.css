@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1200px)  {
+   #wrapper {
+      width: 100%;
+   }
+   main, header {
+      width: 89%;
+   }
+   header nav > ul li {
+      width: 20%;
+   }
+   main section {
+      width: 94%;
+      margin-top: unset;
+      float: unset;
+      margin-left: unset;
+      margin: 2rem auto;
+   }
+   main aside {
+    width: 96%;
+   }
+   footer {
+      text-align: center;
+   }
+   footer p {
+      margin: unset;
+      margin-top: 2rem;
+   }
+}
+@media only screen and (max-width: 730px) {
+   header nav > ul li {
+      width: 100%;
+      display: block;
+      float: unset;
+   }
+   header > nav {
+      height: unset;
+   }
+   header nav > ul {
+      margin: unset;
+   }
+   header > p {
+      display: none;
+   }
+   main section > div {
+      height: unset;
+      float: unset;
+   }
+   main section > div > div {
+      display: block;
+      background-clip: #BACD8B;
+      float: unset;
+   }
+   main section > div > div {
+      display: block;
+      background-color: #BACD8B;
+      text-align: center;
+      vertical-align: bottom;
+      margin: auto;
+   }
+   main > section > div > article > h3 {
+      text-align: center;
+   }
+   main aside {
+      float: unset;
+      margin: auto;
+   }
+   main > aside > article {
+      width: 90%;
+      margin: auto;
+   }
+   main > aside > article h1, main > aside > article h2 {
+      text-align: center;
+   }
+
+
+}

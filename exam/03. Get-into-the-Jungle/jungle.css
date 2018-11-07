@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+body {
+   margin: 0 auto;
+   font-family: 'Poppins', sans-serif;
+   background: linear-gradient(to right, #A46F61 , #E8D2B3);
+}
+section {
+   width: 80%;
+   background-color: white;
+   margin: 5rem auto;
+   border-radius: 16px;
+   box-shadow: 0px 0px 32px 4px rgba(164,111,97,1);
+}
+div#img {
+   display: inline-block;
+   width: 40%;
+   padding: 4rem;
+   vertical-align: top;
+}
+div#img img {
+   width: 100%;
+}
+div#content {
+   display: inline-block;
+   width: 40%;
+   text-align: center;
+   margin-top: 4rem;
+}
+form {
+   width: 52%;
+   display: inline-block;
+}
+h1 {
+   font-weight: normal;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+input#form {
+   padding: 18px 45px 18px 59px;
+   border-radius: 36px;
+   border: none;
+   background: #E6E6E6;
+   margin-bottom: 10px;
+}
+form label:nth-child(1) i {
+   position: absolute;
+    top: 265px;
+    left: 784px;
+}
+form label:nth-child(2) i{
+   position: absolute;
+    top: 327px;
+    left: 784px;
+}
+label.left {
+   text-align: left;
+   display: block;
+   margin-left: 1rem;
+}
+label.left p {
+   display: inline-block;
+   color: #B9AEAC;
+   font-size: 17px;
+   margin: 9px 0;
+}
+form > p {
+   text-align: left;
+   margin: 3rem 0 0;
+}
+input[type="submit"] {
+   background: #8E6B52;
+   color: white;
+   border: none;
+   padding: 18px 59px 18px 59px;
+   border-radius: 29px;
+   font-weight: bold;
+   margin-top: 22px;
+}
+input[type="submit"]:hover {
+    background: #5E4736;
+    cursor: pointer;
+} 
+div#account {
+   margin-left: 49px;
+   font-size: 14px;
+}
+div#account p {
+   color: gray;
+   margin-bottom: 2rem;
+}
+div#account a {
+   color: rgb(70, 70, 70);
+}
+

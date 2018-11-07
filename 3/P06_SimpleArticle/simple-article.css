@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+article {
+   width: 550px;
+   border-radius: 25px;
+   background-color: #fafafa;
+   padding: 25px;
+   margin: auto;
+   box-shadow: 10px 11px 35px -14px rgba(0,0,0,0.54);
+   font-family: 'Lato', sans-serif;
+}
+h1 {
+   margin bottom: 0;
+   padding : 10px;
+   text-align: center;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+img {
+   width: 200px;
+   margin: 15px;
+   border-radius: 50%;
+   border: 5px dotted #8b603d;
+   float: left;
+}
+p {
+   text-align: justify;
+   font-size: 14px;
+}

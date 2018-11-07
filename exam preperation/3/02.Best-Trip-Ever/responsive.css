@@ -1,0 +1,49 @@
+@media only screen and (max-width: 480px) {
+   header {
+      background: url(Images/header-background.jpg) no-repeat left;
+      width: 100%;
+  }
+  .logo-image-container {
+   display: block;
+   text-align: center;
+   margin: auto;
+}
+.header-wrapper {
+   max-width: unset;
+   background: #212121;
+}
+.top-button-container {
+   display: none;
+}
+.header-title {
+   font-size: 3em;
+   margin-bottom: 50px;
+}
+.header-subtitle {
+   display: none;
+}
+.introduction-subtitle, .travel-subtitle {
+   font-size: 1.3em;
+   width: 90%;
+   line-height: 30px;
+}
+.wrapper {
+   flex-direction: column;
+}
+.service-container {
+   margin-top: 3rem;
+}
+.benefits-title {
+   font-size: 3em;
+   margin-bottom: unset;
+   color: #363638;
+}
+.travel-title-container {
+   width: 100%;
+}
+.footer-list {
+   float: unset;
+   text-align: center;
+   padding: 1rem 0;
+}
+}

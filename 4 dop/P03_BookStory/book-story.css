@@ -1,0 +1,14 @@
+#wrapper {
+   width: 400px;
+   background-color: #dddddd;
+   margin: 0 0 0 10px;
+   padding: 10px;
+   border:1px solid #000000;
+}
+p {
+   font-size: 18px;
+
+}
+h1 {
+   text-align: center;
+}

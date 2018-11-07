@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: #C0A991;
+  height: 700px;
+  text-align: center;
+}
+
+header h1.header-title {
+  text-transform: capitalize;
+  padding-top: 12rem;
+  font-size: 2.8rem;
+  color: white;
+  margin-top: 0;
+}
+
+header img {
+  width: 30%;
+}
+
+nav ul {
+  padding: 0.7rem 2rem 0 0;
+  font-size: 1rem;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+p.brand {
+  display: inline-block;
+  float: left;
+  padding: 0.1rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+li.nav-item.button-cta {
+  border: 2px solid white;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+li.nav-item.button-cta:hover {
+  background-color: #867260;
+  border: 2px solid #867260;
+}
+
+header h3.header-subtitle {
+  color: white;
+  font-size: 0.9rem;
+  padding-bottom: 3rem;
+}
+
+div.features {
+  background-image: url(images/potato-background.png);
+  height: 725px;
+  text-align: center;
+  clear: both;
+}
+
+div.features h1 {
+  margin: 0;
+  font-weight: 300;
+  padding-top: 12rem;
+  font-size: 2.6rem;
+}
+
+div.features h3.features-subtitle {
+  width: 43%;
+  margin: auto;
+  padding: 1.5rem 0;
+  font-weight: 100;
+}
+
+li.potato {
+  display: inline-block;
+  width: 23%;
+  padding: 2rem 0;
+  height: 27rem;
+  margin: 0 auto;
+  border-right: 1px solid black;
+}
+
+ul.potato-types {
+  text-align: center;
+}
+
+li.potato img {
+  width: 60%;
+  display: inline-block;
+  height: 23%;
+}
+
+h1.order-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+li.potato h3.potato-title {
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+li.potato li.potato-description {
+  list-style: none;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+li.potato ul.potato-features {
+  padding: 0;
+}
+
+button.btn-order {
+  background: none;
+  border: 2px solid #A8D450;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  color: #A8D450;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #867260;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
